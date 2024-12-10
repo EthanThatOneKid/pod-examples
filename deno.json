@@ -1,0 +1,10 @@
+{
+  "lock": false,
+  "tasks": {
+    "dev": "deno run --watch --env --allow-env=PRINTFUL_TOKEN --allow-net=api.printful.com main.ts",
+    "outdated": "deno outdated --update --latest"
+  },
+  "imports": {
+    "printful-sdk-js-v2": "npm:printful-sdk-js-v2@^2.0.1-beta"
+  }
+}
